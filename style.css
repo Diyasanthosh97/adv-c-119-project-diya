@@ -1,0 +1,39 @@
+#score{
+    font-size: 20px;
+   
+}
+#timer{
+    font-size: 20px;
+    
+}
+#shsketch{
+    float:right;
+    background-color: pink;
+    color:black;
+}
+p{
+    font-size: 20px;
+    font-style:italic ;
+}
+h1{
+    font-style: oblique;
+
+}
+body{
+   background-image: radial-gradient(circle, pink, lavender);
+}
+
+canvas{
+    border:5px solid white;
+    border-radius: 500px;
+    margin-top: 60px;
+    animation-name:moooon;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+
+}
+@keyframes moooon {
+    from{box-shadow: 1px 1px 40px red;}
+    to{box-shadow: 1px 1px 40px blueviolet;}
+    
+}
